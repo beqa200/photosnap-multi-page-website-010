@@ -68,8 +68,6 @@ button {
 /* footer */
 
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: #000;
     padding: 56px 0 56px;
     width: 100%;
@@ -139,6 +137,168 @@ footer .copyright {
 
 .icons img {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(251deg) brightness(102%) contrast(103%);
+}
+
+/* home page */
+.content {
+    background-color: #000000;
+    color: #fff;
+    padding: 72px 33px;
+    margin-top: -5px;
+    position: relative;
+}
+
+.line {
+    height: 6px;
+    width: 128px;
+    left: 33px;
+    top: 0px;
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    position: absolute;
+}
+
+section h1 {
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.3333332538604736px;
+    text-align: left;
+
+}
+
+section .text {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 60%;
+    margin-top: 16px;
+}
+
+section .text-1 {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 23px;
+}
+
+.arrow {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(103%) contrast(103%);
+}
+
+.invite {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+}
+
+.white-space {
+    padding: 72px 33px;
+}
+
+.first-image {
+    position: relative;
+    margin-top: -5px;
+}
+
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mountains {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: brightness(0.7);
+
+}
+
+
+.first-image h2 {
+    left: 33px;
+    top: 236px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.name {
+    position: absolute;
+    top: 265px;
+    left: 33px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+hr {
+    position: absolute;
+    top: 298px;
+    left: 33px;
+}
+
+.about-text {
+    position: absolute;
+    top: 319px;
+    left: 33px;
+    color: #fff;
+}
+
+.arr {
+    position: absolute;
+    top: 319px;
+    left: 301px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(103%) contrast(103%);
+}
+
+.white-box {
+    padding: 80px 33px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-box h3 {
+    margin-top: 48px;
+}
+
+.white-box p {
+    margin-top: 16px;
+    text-align: center;
+    opacity: 60%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.last {
+    padding-bottom: 80px;
+}
+
+.no-limit-text {
+    margin-top: 66px;
 }
 
 /* tablet size*/
