@@ -153,7 +153,10 @@ footer .copyright {
     width: 128px;
     left: 33px;
     top: 0px;
-    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    background: linear-gradient(26.57deg,
+            #ffc593 0%,
+            #bc7198 43.29%,
+            #5a77ff 83.33%);
     position: absolute;
 }
 
@@ -164,7 +167,6 @@ section h1 {
     line-height: 40px;
     letter-spacing: 3.3333332538604736px;
     text-align: left;
-
 }
 
 section .text {
@@ -202,74 +204,66 @@ section .text-1 {
     padding: 72px 33px;
 }
 
-.first-image {
-    position: relative;
-    margin-top: -5px;
+hr {
+    width: 100%;
 }
 
-
-.img-container {
-    position: relative;
-    display: inline-block;
+.arr {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(103%) contrast(103%);
 }
 
-.img-container::before {
-    content: '';
+.card.first {
+    background-image: url(/assets/stories/mobile/mountains.jpg);
+}
+
+.card.second {
+    background-image: url(/assets/stories/mobile/cityscapes.jpg);
+    ;
+}
+
+.card.third {
+    background-image: url(/assets/stories/mobile/18-days-voyage.jpg);
+    ;
+}
+
+.card.four {
+    background-image: url(/assets/stories/mobile/architecturals.jpg);
+}
+
+.container .card {
+    height: 375px;
+    position: relative;
+    display: grid;
+    align-content: flex-end;
+    background-size: cover;
+    padding: 2rem;
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    isolation: isolate;
+    gap: 7px;
+}
+
+.container .card::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.mountains {
+    background-color: #000;
+    opacity: .25;
     display: block;
-    width: 100%;
-    height: auto;
-    filter: brightness(0.7);
-
+    z-index: -1;
 }
 
-
-.first-image h2 {
-    left: 33px;
-    top: 236px;
-    position: absolute;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-}
-
-.name {
-    position: absolute;
-    top: 265px;
-    left: 33px;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 17px;
-}
-
-hr {
-    position: absolute;
-    top: 298px;
-    left: 33px;
-}
-
-.about-text {
-    position: absolute;
-    top: 319px;
-    left: 33px;
-    color: #fff;
-}
-
-.arr {
-    position: absolute;
-    top: 319px;
-    left: 301px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(103%) contrast(103%);
+.arrow-div {
+    display: flex;
+    justify-content: space-between;
 }
 
 .white-box {
@@ -301,10 +295,21 @@ hr {
     margin-top: 66px;
 }
 
+.tablet {
+    display: none;
+}
+
 /* tablet size*/
+@media (min-width: 590px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 @media (min-width: 768px) {
 
-    hr,
     .menu {
         display: none;
     }
@@ -339,6 +344,8 @@ hr {
         font-size: 12px;
     }
 
+    /* footer */
+
     footer {
         flex-direction: row;
         justify-content: space-around;
@@ -365,6 +372,89 @@ hr {
     .btn-btn {
         margin: 0;
     }
+
+    /* home page */
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+        width: 273px;
+        margin-top: -5px;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+    }
+
+    .first-1 {
+        flex-direction: row-reverse;
+    }
+
+    .content {
+        height: 650px;
+        padding: 173px 54px;
+    }
+
+    .line {
+        height: 304px;
+        width: 6px;
+        left: 0px;
+        top: 173px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.166666507720947px;
+        text-transform: uppercase;
+    }
+
+    .invite {
+        margin-top: 31px;
+    }
+
+    .first {
+        padding: 136px 54px;
+    }
+
+    .first h1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.166666507720947px;
+        width: 300px;
+
+    }
+
+    .three-3 {
+        flex-direction: row-reverse;
+    }
+
+    .three-3 h1 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.166666507720947px;
+    }
+
+
+    .text {
+        width: 370px;
+    }
+
+    .container .card {
+        height: 500px;
+    }
+
+    .white-box {
+        padding: 120px 155px 0;
+    }
+
+    .last {
+        padding-bottom: 120px;
+    }
+
 }
 
 /* desktop size */

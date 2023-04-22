@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/index.css" />
     <title>Home page</title>
   </head>
+
   <body>
     <header>
       <div class="flex">
@@ -31,10 +32,18 @@
     </header>
 
     <main>
-      <section>
+      <section class="first-1">
         <img
+          class="mobile"
           src="assets/home/mobile/create-and-share.jpg"
           alt="create-and-share"
+          width="100%"
+        />
+        <img
+          class="tablet"
+          src="assets/home/tablet/create-and-share.jpg"
+          alt="create-and-share"
+          width="100%"
         />
         <div class="content">
           <h1>Create and share your photo stories.</h1>
@@ -56,10 +65,18 @@
       </section>
       <section>
         <img
+          class="mobile"
           src="assets/home/mobile/beautiful-stories.jpg"
           alt="beautiful-stories"
+          width="100%"
         />
-        <div class="white-space">
+        <img
+          class="tablet"
+          src="assets/home/tablet/beautiful-stories.jpg"
+          alt="beautiful-stories"
+          width="100%"
+        />
+        <div class="white-space first">
           <h1>BEAUTIFUL STORIES EVERY TIME</h1>
           <p class="text">
             We provide design templates to ensure your stories look terrific.
@@ -72,10 +89,18 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="three-3">
         <img
+          class="mobile"
           src="assets/home/mobile/designed-for-everyone.jpg"
           alt="designes-for-everyone"
+          width="100%"
+        />
+        <img
+          class="tablet"
+          src="assets/home/tablet/designed-for-everyone.jpg"
+          alt="designes-for-everyone"
+          width="100%"
         />
         <div class="white-space">
           <h1>DESIGNED FOR EVERYONE</h1>
@@ -90,70 +115,61 @@
           </div>
         </div>
       </section>
-      <div class="first-image">
-        <div class="img-container">
-          <img
-            class="mountains"
-            src="assets/stories/mobile/mountains.jpg"
-            alt="mountains"
-          />
-        </div>
-        <div class="text-div">
+      <div class="container">
+        <div class="card first">
           <h2>The Mountains</h2>
           <p class="name">by John Appleseed</p>
           <hr />
-          <p class="about-text">READ STORY</p>
-          <img class="arr" src="assets/shared/desktop/arrow.svg" alt="arrow" />
+          <div class="arrow-div">
+            <p class="about-text">READ STORY</p>
+            <img
+              class="arr"
+              src="assets/shared/desktop/arrow.svg"
+              alt="arrow"
+            />
+          </div>
         </div>
-      </div>
-      <div class="first-image">
-        <div class="img-container">
-          <img
-            class="mountains"
-            src="assets/stories/mobile/cityscapes.jpg"
-            alt="cityscapes"
-          />
-        </div>
-        <div class="text-div">
+        <div class="card second">
           <h2>Sunset Cityscapes</h2>
           <p class="name">by Benjamin Cruz</p>
           <hr />
-          <p class="about-text">READ STORY</p>
-          <img class="arr" src="assets/shared/desktop/arrow.svg" alt="arrow" />
+          <div class="arrow-div">
+            <p class="about-text">READ STORY</p>
+            <img
+              class="arr"
+              src="assets/shared/desktop/arrow.svg"
+              alt="arrow"
+            />
+          </div>
         </div>
-      </div>
-      <div class="first-image">
-        <div class="img-container">
-          <img
-            class="mountains"
-            src="assets/stories/mobile/18-days-voyage.jpg"
-            alt="Voyage"
-          />
-        </div>
-        <div class="text-div">
+        <div class="card third">
           <h2>18 Days Voyage</h2>
           <p class="name">by Alexei Borodin</p>
           <hr />
-          <p class="about-text">READ STORY</p>
-          <img class="arr" src="assets/shared/desktop/arrow.svg" alt="arrow" />
+          <div class="arrow-div">
+            <p class="about-text">READ STORY</p>
+            <img
+              class="arr"
+              src="assets/shared/desktop/arrow.svg"
+              alt="arrow"
+            />
+          </div>
         </div>
-      </div>
-      <div class="first-image">
-        <div class="img-container">
-          <img
-            class="mountains"
-            src="assets/stories/mobile/architecturals.jpg"
-            alt="architecturals"
-          />
-        </div>
-        <div class="text-div">
+        <div class="card four">
           <h2>Architecturals</h2>
           <p class="name">by Samantha Brooke</p>
           <hr />
-          <p class="about-text">READ STORY</p>
-          <img class="arr" src="assets/shared/desktop/arrow.svg" alt="arrow" />
+          <div class="arrow-div">
+            <p class="about-text">READ STORY</p>
+            <img
+              class="arr"
+              src="assets/shared/desktop/arrow.svg"
+              alt="arrow"
+            />
+          </div>
         </div>
       </div>
+
       <div class="white-box">
         <img src="assets/features/desktop/responsive.svg" alt="responsive" />
         <h3>100% Responsive</h3>
