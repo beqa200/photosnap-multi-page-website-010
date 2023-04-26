@@ -30,12 +30,12 @@ header .close {
     align-items: center;
     gap: 20px;
     display: none;
-    /* position: absolute; */
 }
 
 .btn {
     display: flex;
     justify-content: center;
+    padding-bottom: 32px;
     display: none;
 }
 
@@ -81,7 +81,7 @@ footer {
     margin-top: 32px;
     display: flex;
     gap: 13.33px;
-    /* justify-content: center; */
+
 }
 
 .links {
@@ -213,21 +213,21 @@ hr {
 }
 
 .card.first {
-    background-image: url(/assets/stories/mobile/mountains.jpg);
+    background-image: url(../assets/stories/mobile/mountains.jpg);
 }
 
 .card.second {
-    background-image: url(/assets/stories/mobile/cityscapes.jpg);
+    background-image: url(../assets/stories/mobile/cityscapes.jpg);
     ;
 }
 
 .card.third {
-    background-image: url(/assets/stories/mobile/18-days-voyage.jpg);
+    background-image: url(../assets/stories/mobile/18-days-voyage.jpg);
     ;
 }
 
 .card.four {
-    background-image: url(/assets/stories/mobile/architecturals.jpg);
+    background-image: url(../assets/stories/mobile/architecturals.jpg);
 }
 
 .container .card {
@@ -317,6 +317,7 @@ hr {
 
     .btn {
         display: block;
+        padding-bottom: 0;
     }
 
     .menu-box {
@@ -459,10 +460,11 @@ hr {
 }
 
 /* desktop size */
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
 
-header {
-    justify-content: space-around;
+    header {
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -630,7 +632,7 @@ header {
         width: 55%;
         height: 650px;
         background-repeat: no-repeat;
-        background-image: url(/assets/home/desktop/create-and-share.jpg);
+        background-image: url(../assets/home/desktop/create-and-share.jpg);
     }
 
     .two {
@@ -638,7 +640,7 @@ header {
     }
 
     .image-space {
-        background-image: url(/assets/home/desktop/beautiful-stories.jpg);
+        background-image: url(../assets/home/desktop/beautiful-stories.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 55%;
@@ -650,7 +652,7 @@ header {
     }
 
     .image-source {
-        background-image: url(/assets/home/desktop/designed-for-everyone.jpg);
+        background-image: url(../assets/home/desktop/designed-for-everyone.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 55%;
@@ -675,7 +677,7 @@ header {
         align-items: baseline;
         justify-content: center;
         padding: 120px 165px;
-        gap: 30px;
+        gap: 70px;
     }
 
     .white-box {
