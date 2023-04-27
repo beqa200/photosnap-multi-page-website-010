@@ -30,11 +30,18 @@ header .close {
     align-items: center;
     gap: 20px;
     display: none;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    display: none;
 }
 
 .btn {
-    display: flex;
     justify-content: center;
+    display: flex;
     padding-bottom: 32px;
     display: none;
 }
@@ -55,7 +62,7 @@ hr {
 }
 
 button {
-    padding: 14px 80px;
+    padding: 14px 70px;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 2.5px;
@@ -200,6 +207,10 @@ section .text-1 {
     gap: 18px;
 }
 
+.invite img {
+    align-self: flex-end;
+}
+
 .white-space {
     padding: 72px 33px;
 }
@@ -264,6 +275,28 @@ hr {
 .arrow-div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.about-text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+
+
 }
 
 .white-box {
@@ -339,7 +372,8 @@ hr {
 
     button {
         padding: 12px 24px;
-        font-size: 11px;
+        font-size: 8px;
+        display: block;
     }
 
     .menu-box a {
@@ -460,11 +494,10 @@ hr {
 }
 
 /* desktop size */
-@media (min-width: 900px) {
+@media (min-width: 900px) {}
 
-    header {
-        justify-content: space-around;
-    }
+header {
+    justify-content: space-around;
 }
 
 @media (min-width: 1024px) {
@@ -677,7 +710,7 @@ hr {
         align-items: baseline;
         justify-content: center;
         padding: 120px 165px;
-        gap: 70px;
+        gap: 30px;
     }
 
     .white-box {
