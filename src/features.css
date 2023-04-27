@@ -358,7 +358,7 @@ footer .copyright {
 
     
 
-    .image1-tablet{
+    .image1-desktop{
         display: block;
         width:100%;
         height:490px;
@@ -386,7 +386,7 @@ footer .copyright {
 
     }
 
-    .image1-mobile, .image1-desktop{
+    .image1-mobile, .image1-tablet{
         display: none;
     }
 
