@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/index.css" />
-    <title>Home page</title>
+    <title>Home</title>
   </head>
 
   <body>
     <header>
       <div class="flex">
-        <img src="assets/shared/desktop/logo.svg" alt="header-logo" />
-        <img class="menu" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
+        <a href="index.html"
+          ><img src="assets/shared/desktop/logo.svg" alt="header-logo"
+        /></a>
+        <img class="icon" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
         <img
           class="close"
           src="assets/shared/mobile/close.svg"
@@ -22,12 +24,31 @@
         />
       </div>
       <div class="menu-box">
-        <a href="stories.html">STORIES</a>
-        <a href="features.html">FEATURES</a>
-        <a href="pricing.html">PRICING</a>
-        <hr />
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+          <hr />
+        </div>
+        <div class="btn">
+          <button id="btn">GET AN INVITE</button>
+        </div>
       </div>
-      <div class="btn">
+      <a href="index.html">
+        <img
+          class="tab-desk"
+          src="assets/shared/desktop/logo.svg"
+          alt="header-logo"
+      /></a>
+      <div class="menu-bar">
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+          <hr />
+        </div>
+      </div>
+      <div class="btn desk">
         <button id="btn">GET AN INVITE</button>
       </div>
     </header>
@@ -35,7 +56,7 @@
     <main>
       <section class="first-1">
         <img
-          class="mobile"
+          class="mobile img-img"
           src="assets/home/mobile/create-and-share.jpg"
           alt="create-and-share"
           width="100%"
@@ -43,12 +64,6 @@
         <img
           class="tablet"
           src="assets/home/tablet/create-and-share.jpg"
-          alt="create-and-share"
-          width="100%"
-        />
-        <img
-          class="desktop"
-          src="assets/home/desktop/create-and-share.jpg"
           alt="create-and-share"
           width="100%"
         />

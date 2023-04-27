@@ -339,23 +339,6 @@ hr {
     .card.four:hover {
         top: -30px;
     }
-}
-
-@media (min-width: 1440px) {
-
-    /* home page */
-    .tablet {
-        display: none;
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    .content {
-        margin: 0;
-        width: 45%;
-    }
 
     .first-1 {
         flex-direction: row;
@@ -363,10 +346,14 @@ hr {
 
     .hero-img {
         background-size: cover;
-        width: 55%;
+        width: 110%;
         height: 650px;
         background-repeat: no-repeat;
         background-image: url(../assets/home/desktop/create-and-share.jpg);
+    }
+
+    .tablet {
+        display: none;
     }
 
     .two {
@@ -377,12 +364,8 @@ hr {
         background-image: url(../assets/home/desktop/beautiful-stories.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 55%;
+        width: 70%;
         height: 650px;
-    }
-
-    .white-space.first {
-        width: 39%;
     }
 
     .image-source {
@@ -395,6 +378,35 @@ hr {
 
     .three-3 {
         flex-direction: row;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    /* home page */
+    .tablet {
+        display: none;
+    }
+
+    .content {
+        margin: 0;
+        width: 45%;
+    }
+
+    .hero-img {
+        width: 55%;
+    }
+
+    .image-space {
+        width: 55%;
+    }
+
+    .white-space.first {
+        width: 39%;
+    }
+
+    .image-source {
+        width: 55%;
     }
 
     .white-space.two {

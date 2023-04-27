@@ -26,26 +26,33 @@ header .close {
     padding: 32px 33px;
     display: flex;
     flex-direction: column;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; */
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+}
+
+.menu-box .menu {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    display: none;
-}
-
-button {
-    display: flex;
-    justify-content: center;
-    display: none;
 }
 
 .btn {
     justify-content: center;
     display: flex;
-    padding-bottom: 32px;
-    display: none;
+    background-color: #fff;
+    margin-top: 20px;
 }
 
-.menu-box a {
+header a {
     color: #000000;
     font-size: 15px;
     line-height: 20px;
@@ -144,20 +151,44 @@ footer .copyright {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(251deg) brightness(102%) contrast(103%);
 }
 
+.desk,
+.tab-desk,
+.menu-bar {
+    display: none;
+}
+
 @media (min-width: 768px) {
-    .menu {
+    .flex {
         display: none;
     }
 
-    .btn {
-        display: block;
-        padding-bottom: 0;
+    .menu-box {
+        display: none;
     }
 
-    .menu-box {
+    .icon {
+        display: none;
+    }
+
+    .desk,
+    .tab-desk {
         display: flex;
-        flex-direction: row;
+    }
+
+    .menu-bar {
+        display: flex;
         padding: 28px;
+        align-items: center;
+    }
+
+    .menu {
+        gap: 37px;
+        display: flex;
+    }
+
+    .btn {
+        padding-bottom: 0;
+        margin-top: 0;
     }
 
     .links {
@@ -167,7 +198,7 @@ footer .copyright {
     header {
         display: flex;
         align-items: center;
-        padding: 16px 40px;
+        padding: 0px 40px;
         justify-content: space-around;
     }
 
@@ -177,7 +208,7 @@ footer .copyright {
         display: block;
     }
 
-    .menu-box a {
+    .menu-bar a {
         font-size: 12px;
     }
 
@@ -211,21 +242,7 @@ footer .copyright {
     }
 }
 
-@media (min-width: 900px) {}
-
-header {
-    justify-content: space-around;
-}
-
 @media (min-width: 1024px) {
-    header {
-        justify-content: space-around;
-    }
-
-    .menu-box {
-        gap: 37px;
-    }
-
     button {
         font-size: 12px;
     }
@@ -268,12 +285,12 @@ header {
         cursor: pointer;
     }
 
-    .menu-box a:hover {
+    .menu-bar a:hover {
         opacity: 30%;
         cursor: pointer;
     }
 
-    .btn button:hover {
+    #btn:hover {
         background-color: #dfdfdf;
         cursor: pointer;
         color: #000;
