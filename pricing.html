@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="common.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +11,10 @@
   <body>
     <header>
       <div class="flex">
-        <img src="assets/shared/desktop/logo.svg" alt="header-logo" />
-        <img class="menu" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
+        <a href="index.html"
+          ><img src="assets/shared/desktop/logo.svg" alt="header-logo"
+        /></a>
+        <img class="icon" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
         <img
           class="close"
           src="assets/shared/mobile/close.svg"
@@ -19,13 +22,31 @@
         />
       </div>
       <div class="menu-box">
-        <a href="stories.html">STORIES</a>
-        <a href="features.html">FEATURES</a>
-        <a href="pricing.html">PRICING</a>
-        <hr />
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+          <hr />
+        </div>
+        <div class="btn">
+          <button id="btn">GET AN INVITE</button>
+        </div>
       </div>
-      <div class="btn">
-        <!-- <button>GET AN INVITE</button> -->
+      <a href="index.html">
+        <img
+          class="tab-desk"
+          src="assets/shared/desktop/logo.svg"
+          alt="header-logo"
+      /></a>
+      <div class="menu-bar">
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+        </div>
+      </div>
+      <div class="btn desk">
+        <button id="btn">GET AN INVITE</button>
       </div>
     </header>
     <section class="first-section">
@@ -266,5 +287,6 @@
       </div>
     </footer>
     <script src="pricing.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
