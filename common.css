@@ -16,21 +16,18 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 28px 24px 28px;
+    align-items: center;
 }
 
 header .close {
     display: none;
 }
 
+
 .menu-box {
     padding: 32px 33px;
     display: flex;
     flex-direction: column;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; */
     display: none;
     background-color: #fff;
     position: absolute;
