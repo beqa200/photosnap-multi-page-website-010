@@ -11,7 +11,7 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-/* header */
+/* header  */
 .flex {
     display: flex;
     justify-content: space-between;
@@ -154,6 +154,7 @@ footer .copyright {
     display: none;
 }
 
+/* tab */
 @media (min-width: 768px) {
     .flex {
         display: none;
@@ -239,11 +240,13 @@ footer .copyright {
     }
 }
 
+/* desktop */
 @media (min-width: 1024px) {
     button {
         font-size: 12px;
     }
 }
+
 
 @media (min-width: 1440px) {
     .flex-wrap {
