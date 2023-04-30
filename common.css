@@ -11,26 +11,23 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-/* header */
+/* header  */
 .flex {
     display: flex;
     justify-content: space-between;
     padding: 28px 24px 28px;
+    align-items: center;
 }
 
 header .close {
     display: none;
 }
 
+
 .menu-box {
     padding: 32px 33px;
     display: flex;
     flex-direction: column;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; */
     display: none;
     background-color: #fff;
     position: absolute;
@@ -157,6 +154,7 @@ footer .copyright {
     display: none;
 }
 
+/* tab */
 @media (min-width: 768px) {
     .flex {
         display: none;
@@ -242,11 +240,13 @@ footer .copyright {
     }
 }
 
+/* desktop */
 @media (min-width: 1024px) {
     button {
         font-size: 12px;
     }
 }
+
 
 @media (min-width: 1440px) {
     .flex-wrap {

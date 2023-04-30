@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="common.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +11,10 @@
   <body>
     <header>
       <div class="flex">
-        <img src="assets/shared/desktop/logo.svg" alt="header-logo" />
-        <img class="menu" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
+        <a href="index.html"
+          ><img src="assets/shared/desktop/logo.svg" alt="header-logo"
+        /></a>
+        <img class="icon" src="assets/shared/mobile/menu.svg" alt="menu-logo" />
         <img
           class="close"
           src="assets/shared/mobile/close.svg"
@@ -19,19 +22,37 @@
         />
       </div>
       <div class="menu-box">
-        <a href="stories.html">STORIES</a>
-        <a href="features.html">FEATURES</a>
-        <a href="pricing.html">PRICING</a>
-        <hr />
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+          <hr />
+        </div>
+        <div class="btn">
+          <button id="btn">GET AN INVITE</button>
+        </div>
       </div>
-      <div class="btn">
-        <!-- <button>GET AN INVITE</button> -->
+      <a href="index.html">
+        <img
+          class="tab-desk"
+          src="assets/shared/desktop/logo.svg"
+          alt="header-logo"
+      /></a>
+      <div class="menu-bar">
+        <div class="menu">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+        </div>
+      </div>
+      <div class="btn desk">
+        <button id="btn">GET AN INVITE</button>
       </div>
     </header>
     <section class="first-section">
       <img class="mob" src="assets/pricing/mobile/hero.jpg" alt="hero" />
       <img class="tab" src="assets/pricing/tablet/hero.jpg" alt="hero" />
-      <img class="desk" src="assets/pricing/desktop/hero.jpg" alt="hero" />
+      <img class="desktop" src="assets/pricing/desktop/hero.jpg" alt="hero" />
       <div class="dark-box">
         <h2>PRICING</h2>
         <p>
@@ -43,12 +64,12 @@
       </div>
     </section>
     <section class="period">
-      <p>Monthly</p>
+      <p id="month">Monthly</p>
       <label class="switch" for="checkbox">
         <input type="checkbox" id="checkbox" />
         <div class="slider round"></div>
       </label>
-      <p>Yearly</p>
+      <p id="year">Yearly</p>
     </section>
     <section class="box-container">
       <div class="first">
@@ -60,8 +81,8 @@
           </p>
         </div>
         <div class="price">
-          <p>$19.00</p>
-          <span>per month</span>
+          <p id="price-1">$19.00</p>
+          <span id="period">per month</span>
         </div>
         <button class="btn">PICK PLAN</button>
       </div>
@@ -74,8 +95,8 @@
           </p>
         </div>
         <div class="price">
-          <p>$39.00</p>
-          <span>per month</span>
+          <p id="price-2">$39.00</p>
+          <span id="period-2">per month</span>
         </div>
         <button>PICK PLAN</button>
         <div class="line-1"></div>
@@ -89,8 +110,8 @@
           </p>
         </div>
         <div class="price">
-          <p>$99.00</p>
-          <span>per month</span>
+          <p id="price-3">$99.00</p>
+          <span id="period-3">per month</span>
         </div>
         <button class="btn">PICK PLAN</button>
       </div>
@@ -230,12 +251,16 @@
       </div>
     </div>
     <div class="beta">
-      <img class="mobbeta" src="./assets/shared/tablet/bg-beta.jpg" />
-      <p class="betatext">We’re in beta. Get your invite today!</p>
-      <p class="betainvete">GET AN INVITE</p>
-
-      <div class="gradientline"></div>
+      <div class="rectangle1"></div>
+      <div class="beta-div">
+        <h1>We’re in beta. Get your invite today!</h1>
+      </div>
+      <div class="arrow-div">
+        <p class="hover">GET AN INVITE</p>
+        <img src="./assets/shared/desktop/arrow.svg" class="arrow" />
+      </div>
     </div>
+
     <footer>
       <div class="flex-wrap">
         <img
@@ -265,6 +290,7 @@
         <p class="copyright">Copyright 2019. All Rights Reserved</p>
       </div>
     </footer>
+    <script src="pricing.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
-
