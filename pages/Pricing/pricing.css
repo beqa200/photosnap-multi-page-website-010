@@ -315,7 +315,7 @@ h2 {
 }
 
 .beta {
-  background-image: url(../assets/shared/mobile/bg-beta.jpg);
+  background-image: url(/assets/shared/mobile/bg-beta.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 288px;
@@ -400,7 +400,7 @@ h2 {
   }
 
   .beta {
-    background-image: url(../assets/shared/tablet/bg-beta.jpg);
+    background-image: url(/assets/shared/tablet/bg-beta.jpg);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -570,6 +570,7 @@ h2 {
   .box h2 {
     text-align: center;
     line-height: 25px;
+    font-size: 24px
   }
 
   .box p {
@@ -625,7 +626,7 @@ h2 {
 
   /* test */
   .beta {
-    background-image: url(../assets/shared/desktop/bg-beta.jpg);
+    background-image: url(/assets/shared/desktop/bg-beta.jpg);
   }
 }
 
@@ -644,3 +645,8 @@ h2 {
     margin-left: 350px;
   }
 }
+
+/* @media (min-width:1700px) {
+  .lines9 {
+    left: 150px;
+  } */

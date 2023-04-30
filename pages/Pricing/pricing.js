@@ -8,6 +8,8 @@ const period = document.getElementById("period");
 const period2 = document.getElementById("period-2");
 const period3 = document.getElementById("period-3");
 
+month.style.opacity = '1';
+
 checkBox.addEventListener("change", () => {
     if (checkBox.checked) {
         year.style.opacity = '1';
