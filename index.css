@@ -282,6 +282,7 @@ hr {
 
     .content {
         padding: 173px 111px;
+        margin: 0;
     }
 
     .container {
@@ -378,6 +379,22 @@ hr {
 
     .three-3 {
         flex-direction: row;
+    }
+
+    .card.first {
+        background-image: url(../assets/stories/desktop/mountains.jpg);
+    }
+
+    .card.second {
+        background-image: url(../assets/stories/desktop/cityscapes.jpg);
+    }
+
+    .card.third {
+        background-image: url(../assets/stories/desktop/18-days-voyage.jpg);
+    }
+
+    .card.four {
+        background-image: url(../assets/stories/desktop/architecturals.jpg);
     }
 }
 

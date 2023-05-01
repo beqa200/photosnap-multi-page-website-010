@@ -156,14 +156,13 @@ hr {
 .arrow1 {
   height: 10px;
   width: 41.863990783691406px;
-  left: 249.65869140625px;
   color: white;
 }
 
 .readarrow1 {
   display: flex;
   flex-direction: row;
-  gap: 140px;
+  gap: 97px;
   margin-top: 10px;
 }
 
@@ -367,7 +366,7 @@ hr {
 
   .blackcontainer {
     background-image: url(/assets/stories/desktop/moon-of-appalacia.jpg);
-    height: 575px;
+    height: 560px;
     padding-left: 112px;
   }
 
@@ -411,5 +410,149 @@ hr {
 
   .picture {
     width: 100%;
+  }
+
+  .one {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .two {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/cityscapes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .three {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/18-days-voyage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .four {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/architecturals.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .five {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/world-tour.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .six {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/unforeseen-corners.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .seven {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/king-on-africa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .eight {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/trip-to-nowhere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .nine {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/rage-of-the-sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .then {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/running-free.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .eleven {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/behind-the-waves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .twelve {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/calm-waters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .thirteen {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/milky-way.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .fourteen {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/dark-forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .fifteen {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/somwarpet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .sixteen {
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%),
+      url(/assets/stories/desktop/land-of-dreams.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
