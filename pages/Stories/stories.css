@@ -91,7 +91,6 @@ h2 {
 }
 
 .timecontainer {
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -302,7 +301,7 @@ hr {
   background-size: cover;
 }
 
-/* tablet size*/
+
 @media (min-width: 768px) {
   .section {
     display: grid;

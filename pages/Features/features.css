@@ -139,7 +139,7 @@
     cursor: pointer;
 }
 
-/* tablet size*/
+
 @media (min-width: 768px) {
     .image1-desktop {
         display: block;
@@ -251,7 +251,7 @@
     }
 }
 
-/* desktop size */
+
 
 @media (min-width: 1440px) {
     .beta {
