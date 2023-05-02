@@ -27,6 +27,14 @@ Users should be able to:
 
 ![](./assets/preview.jpg)
 
+### Getting Started
+
+1.First of all you need to clone app repository from github:
+
+git clone https://github.com/beqa200/photosnap-multi-page-website-010.git
+
+2.Next step requires start live server.
+
 ### Links
 
 - Solution URL: [Github](https://github.com/beqa200/photosnap-multi-page-website-010)
