@@ -114,7 +114,7 @@
 }
 
 .beta {
-    background-image: url(../assets/shared/mobile/bg-beta.jpg);
+    background-image: url(/assets/shared/mobile/bg-beta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 288px;
