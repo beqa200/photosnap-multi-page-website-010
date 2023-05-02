@@ -31,7 +31,7 @@ Users should be able to:
 
 1. First of all you need to clone app repository from github:
 
-git clone git@github.com/beqa200/photosnap-multi-page-website-010.git
+git clone https://github.com/beqa200/photosnap-multi-page-website-010.git
 
 ### Links
 
