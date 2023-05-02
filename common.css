@@ -11,7 +11,7 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-/* header  */
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,6 @@ button {
     background-color: #000;
 }
 
-/* footer */
 
 footer {
     background-color: #000;
@@ -240,7 +239,7 @@ footer .copyright {
     }
 }
 
-/* desktop */
+
 @media (min-width: 1024px) {
     button {
         font-size: 12px;

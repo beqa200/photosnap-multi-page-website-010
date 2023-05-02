@@ -1,4 +1,4 @@
-/* home page */
+
 .content {
     background-color: #000000;
     color: #fff;
@@ -274,7 +274,6 @@ hr {
 
 @media (min-width: 1200px) {
 
-    /* home page */
     .two,
     .three-3 {
         justify-content: space-between;
@@ -400,7 +399,6 @@ hr {
 
 @media (min-width: 1440px) {
 
-    /* home page */
     .tablet {
         display: none;
     }
